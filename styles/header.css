@@ -1,0 +1,80 @@
+:root{
+    --cor-principal: white;
+    --cor-segundaria: black;
+    --cor-terciaria: #8E2424;
+    --cinza: #667085;
+    --cor-de-fundo: #fff2f2;
+
+    --fonte-principal:"inter";
+}
+
+.cabecalho{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img__logo{
+    height: auto;
+}
+.navi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.cabecalho__logo{
+    display: flex;
+    align-items: center;
+    margin: 2rem 6rem;
+    gap: 0.5em;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cor-segundaria);
+    
+}
+.cabecalho__menu{   
+    display: flex;
+    align-items: center;
+
+}
+.cabecalho__menu__texto{
+    display: flex;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    gap: 1.5em;
+    color: var(--cinza);
+    margin-left: 10rem;
+
+}
+.ANC{
+    text-decoration: none;
+    color: var(--cinza);
+}
+.cabecalho__menu__login{
+    justify-content: space-between;
+    display: flex;
+    gap: 2rem;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    align-items: center;
+    text-decoration: none;
+    
+}
+.tela{
+ margin-right: 6rem;
+}
+.parte1{
+    color: green;
+}
+.parte2{
+    background-color: var(--cor-terciaria);
+    padding: 1em 1.2em;
+    color: var(--cor-principal);
+    border-radius: 10px;
+}

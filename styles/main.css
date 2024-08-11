@@ -1,0 +1,138 @@
+main{
+    font-family: var(--fonte-principal);
+   
+}
+.secao__principal{
+     text-align: center;   
+    margin: 6rem;
+}
+
+.secao__principal__texto{
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+.secao__principal__titulo{
+    margin: 2.5rem;
+    font-size: 48px;
+    font-weight: 600;
+}
+.secao__principal__sub{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    line-height: 30px;
+}
+.secao__principal__lista{
+    display: flex;
+    margin: 8rem 0;
+
+}
+.secao__principal__lista__filho{
+
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+}
+.lista__numero{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-align: left;
+}
+.espaco{
+    margin-right: 8rem;
+}
+.lista__texto{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 1rem;
+    text-align: left;
+}
+.lista__sub{
+    color: var(--cinza);
+    text-align: left;
+
+
+}
+
+/* seção secundaria */
+.secao__secundaria{
+    text-align: center;
+    margin: 14rem;
+}
+.botao__vagas{
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    padding: 0.7rem;
+    background-color: #ddcccc;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.secao__secundaria__titulo{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 2.5rem;
+}
+.secao__secundaria__texto{
+    color: var(--cinza);
+    font-size: 20px;
+    margin-bottom: 5rem;
+}
+.secao__secundaria__lista{
+    text-align: left;
+    margin-left: 17rem;
+}
+.lista__secundaria{
+    margin: 0rem;
+}
+.titulo__lista__secundaria{
+    font-size: 20px;
+    margin-top: 4rem ;
+    margin-bottom: 3rem;
+    font-weight: 500;
+}
+.divisão__massa{
+    display: flex;
+    margin-top: 1.7rem;
+}
+.texto__lista__secundaria{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 1rem;
+}
+.separação{
+    padding: 0.5rem;
+    border: 1px solid var(--cor-de-fundo);
+    border-radius: 19px;
+    margin-bottom: 2rem;
+    
+}
+.sub1__lista__secundaria, .sub2__lista__secundaria{
+    color: var(--cinza);
+    margin: 1rem;
+}
+
+/* seção terciaria */
+.secao__terciaria{
+    text-align: center;
+    background: var(--cor-de-fundo);
+    margin: 2em 10em;
+    border-radius: 15px;
+    padding: 5em;
+}
+.secao__terciaria__titulo{
+    font-size: 36px;
+    font-weight: 500;
+    margin: 2rem;
+}
+.secao__terciaria__texto{
+    font-weight: 500;
+    margin: 1rem;
+}
+.lista__sub__terciaria{
+    color: var(--cinza);
+    font-weight: 500;
+}
